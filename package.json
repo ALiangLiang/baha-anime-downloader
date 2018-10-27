@@ -1,0 +1,30 @@
+{
+  "name": "baha-anime-downloader",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hls-segment-reader": "^3.0.0",
+    "hls-tools": "git+https://github.com/ani-gamer-downloader/node-hls-tools.git",
+    "inquirer": "^6.2.0",
+    "m3u8": "0.0.7",
+    "request": "^2.75.0",
+    "request-promise-native": "^1.0.5",
+    "tough-cookie-filestore": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

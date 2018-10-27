@@ -1,0 +1,8 @@
+.vscode/
+*.mkv
+/node_modules
+/download/*.ts
+*.exe
+*.msi
+cookies.json
+.id.json
